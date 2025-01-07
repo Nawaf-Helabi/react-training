@@ -8,7 +8,10 @@ const Navbar = () => {
         </h1>
         <div className='links'>
            <a href="/">Home</a>
-           <a href="/creete">new blog</a>
+           <a href="/creete" style={{ 
+          color: 'white', 
+          backgroundColor: '#f1356d',
+          borderRadius: '8px' }}>new blog</a>
         </div>
     </nav>
   )
