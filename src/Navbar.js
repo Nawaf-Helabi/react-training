@@ -1,6 +1,8 @@
 import React from 'react'
 
 const Navbar = () => {
+  
+    
   return (
     <nav className="navbar">
         <h1>
@@ -8,10 +10,7 @@ const Navbar = () => {
         </h1>
         <div className='links'>
            <a href="/">Home</a>
-           <a href="/creete" style={{ 
-          color: 'white', 
-          backgroundColor: '#f1356d',
-          borderRadius: '8px' }}>new blog</a>
+           <a href="/creete">new blog</a>
         </div>
     </nav>
   )
